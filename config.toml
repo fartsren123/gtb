@@ -1,5 +1,5 @@
 title = "Airspace for Hugo"
-baseURL = "/"
+baseURL = "https://gtb.org.in/"
 languageCode = "en-us"
 theme = "airspace-hugo"
 
