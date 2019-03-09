@@ -1,6 +1,6 @@
 baseURL = "www.example.com"
 languageCode = "en-us"
-title = "Hugo Serif Theme"
+title = "Guru Teg Bahadur Khalsa Institute of Engineering & Technology"
 theme = "hugo-serif-theme"
 
 [params]
@@ -18,19 +18,9 @@ theme = "hugo-serif-theme"
     meta_twitter_creator = "@zerostaticio"
 
 [[menu.main]]
-	name = "Services"
+	name = "Courses"
 	url = "/services/"
     weight = 1
-
-[[menu.main]]
-    name = "Team"
-    url = "/team/"
-    weight = 2
-
-[[menu.main]]
-	name = "Testimonials"
-	url = "/testimonials/"
-	weight = 3
 
 [[menu.main]]
     name = "Contact"
