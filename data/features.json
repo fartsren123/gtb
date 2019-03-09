@@ -1,17 +1,17 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients recieve an obligation free consultation.",
+    "title": "Free Wifi",
+    "description": "The Campus in powered by BSNL Fiber Optic Line for High Speed Internet.",
     "image": "/features/noun_branding_1885335.svg"
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our team are certified accountants.",
+    "title": "G Suite Enabled",
+    "description": "College uses Google Suite for Education powering both Email and Storage.",
     "image": "/features/noun_The Process_1885341.svg"
   },
   {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
+    "title": "Microsoft Office 365",
+    "description": "GTB KIET is powered by Microsoft Office 365 by Education.",
     "image": "/features/noun_3d modeling_1885342.svg"
   }
 ]

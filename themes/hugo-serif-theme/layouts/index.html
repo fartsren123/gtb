@@ -1,18 +1,18 @@
-{{ define "title" }}Hugo Serif Theme Demo{{ end}}
+{{ define "title" }}GTB KIET - Guru Teg Bahadur Khalsa Institute of Engineering & Technology, Chhapianwali, Malout{{ end}}
 {{ define "header_css" }}{{ end }}
 {{ define "body_classes" }}page-home{{ end }}
 {{ define "header_classes" }}header-transparent{{ end }}
 
 {{ define "meta_tags" }}
-<meta name="description" content="{{ .Site.Params.homepage_meta_tags.meta_description }}" />
-<meta property="og:title" content="{{ .Site.Params.homepage_meta_tags.meta_og_title }}" />
-<meta property="og:type" content="{{ .Site.Params.homepage_meta_tags.meta_og_type }}" />
-<meta property="og:url" content="{{ .Site.Params.homepage_meta_tags.meta_og_url }}" />
-<meta property="og:image" content="{{ .Site.Params.homepage_meta_tags.meta_og_image }}" />
-<meta property="og:description" content="{{ .Site.Params.homepage_meta_tags.meta_og_description }}" />
+<meta name="description" content="Guru Teg Bahadur Khalsa Institute of Engineering & Technology (GTBKIET) was founded in 1997 by GTB Educational Trust in Malout." />
+<meta property="og:title" content="Guru Teg Bahadur Khalsa Institute of Engineering & Technology, Chhapianwali, Malout" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://gtb.org.in" />
+<meta property="og:image" content="https://gtb.org.in/featured.png" />
+<meta property="og:description" content="Guru Teg Bahadur Khalsa Institute of Engineering & Technology (GTBKIET) was founded in 1997 by GTB Educational Trust in Malout." />
 <meta name="twitter:card" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_card }}" />
-<meta name="twitter:site" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_site }}" />
-<meta name="twitter:creator" content="{{ .Site.Params.homepage_meta_tags.meta_twitter_creator }}" />
+<meta name="twitter:site" content="summary_large_image" />
+<meta name="twitter:creator" content="@parveenbhadoo" />
 {{ end }}
 
 {{ define "main" }}
@@ -52,9 +52,6 @@
       {{ .Render "summary" }}
     </div>
     {{ end }}
-    <div class="col-12 text-center">
-      <a class="button button-primary" href="{{ .Site.BaseURL }}services">View All Services</a>
-    </div>
   </div>
 </div>
 {{end}}
@@ -63,7 +60,7 @@
 <div class="container pt-5 pb-5 pt-md-8 pb-md-8">
   <div class="row justify-content-center">
     <div class="col-12">
-      <h2 class="text-center text-dark mb-3">Features</h2>
+      <h2 class="text-center text-dark mb-3">Modern Technology in Education</h2>
     </div>
     {{ range .Site.Data.features }}
     <div class="col-12 col-md-6 col-lg-4 mb-2">
