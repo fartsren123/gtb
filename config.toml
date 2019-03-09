@@ -6,7 +6,14 @@ theme = "hugo-serif-theme"
 [params]
   google_analytics_id=""
 
+
+
+[[menu.main]]
+    name = "Mail"
+    url = "https://mail.google.com/a/gtb.org.in/"
+    weight = 2
+
 [[menu.main]]
     name = "Contact"
     url = "/contact/"
-    weight = 1
+    weight = 3
