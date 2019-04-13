@@ -9,7 +9,12 @@ theme = "hugo-serif-theme"
 
 
 [[menu.main]]
-    name = "Mail"
+    name = "Outlook"
+    url = "http://mail.ms.gtb.org.in"
+    weight = 2
+
+[[menu.main]]
+    name = "Gmail"
     url = "https://mail.google.com/a/gtb.org.in/"
     weight = 2
 
